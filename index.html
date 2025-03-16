@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="card">
+        <h1>QR Code Generator</h1>
+        <div class="input">
+            <label for="user-input" style="color: rgb(67, 66, 66);">Enter a phrase or URL</label>
+            <input type="text" id="user-input">
+        </div>
+        <button type="submit">Generate</button>
+        <div class="qrcode">
+            <img src="" id="generated-qrcode">
+            <span class="qrcode-text" style="color: rgb(67, 66, 66);">A QR code has been generated for: "<strong id="ui-text"></strong>"</span>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
